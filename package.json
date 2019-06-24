@@ -1,0 +1,24 @@
+{
+  "name": "my-mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest",
+    "test:watch": "npx jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "mongoose": "^5.6.0"
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^1.0.1",
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "preset": "@shelf/jest-mongodb"
+  }
+}
